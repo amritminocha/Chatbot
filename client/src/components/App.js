@@ -5,7 +5,6 @@ import Landing from './pages/Landing';
 import About from './pages/About';
 import Shop from './shop/Shop';
 import Chatbot from './chatbot/Chatbot';
-import MessageContainer from './customchatbot/messageContainer';
 
 const App = () => (
     <div>
@@ -16,7 +15,6 @@ const App = () => (
                <Route exact path="/about" component={About} />
                <Route exact path="/shop" component={Shop} />
                <Chatbot />
-               <MessageContainer></MessageContainer>
            </div>
        </BrowserRouter>
     </div>
